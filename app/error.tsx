@@ -11,7 +11,6 @@ export default function ErrorBoundary({
   reset: () => void;
 }) {
   useEffect(() => {
-    // eslint-disable-next-line no-console
     console.error('App boundary caught:', error);
   }, [error]);
 
